@@ -1,0 +1,35 @@
+CRIAR IMAGEM DOCKER
+
+1. Aceder à VM
+2. Ativar o docker - sudo systemctl start docker
+3. Criar ficheiro Dockerfile - sudo vim Dockerfile
+4. Escrever código no Dockerfile
+
+"
+FROM <nome da VM>
+
+RUN mkdir /usr/<nome do serviço> # Cria pasta com o serviço
+
+WORKDIR /usr/<nome do serviço> # Coloca a pasta criada como a working directory
+
+COPY <Servico.jar> . # Copia o serviço para a working directory
+
+CMD ["java", "-jar", "<Servico.jar>"] # Comando que vai executar quando o container é criado
+
+"
+
+5. Confirmar as imagens docker - sudo docker images
+6. Fazer build da imagem - sudo docker build -t <nome do serviço> .
+
+
+
+
+
+EXECUTAR CONTAINERS COM BASE NA IMAGEM CRIADA
+
+1. Criar container no porto 8000 do container -> sudo docker run -d -p 8000:7500 servicerest
+2. Criar container no porto 8001 do container -> sudo docker run -d -p 8001:7500 servicerest
+
+
+LISTAR CONTAINERS 
+
