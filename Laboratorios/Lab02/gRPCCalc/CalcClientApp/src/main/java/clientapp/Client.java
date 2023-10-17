@@ -33,12 +33,17 @@ public class Client {
             blockingStub = CalcServiceGrpc.newBlockingStub(channel);
             noBlockStub = CalcServiceGrpc.newStub(channel);
 
+            Scanner numbers = new Scanner(System.in);
             while (true) {
                 switch (Menu()) {
                     case 1:  // adicionar dois numeros
+                        System.out.println("Insert the first number: ");
+                        int val1 = numbers.nextInt();
+                        System.out.println("Insert the second number: ");
+                        int val2 = numbers.nextInt();
                         Result res = blockingStub.add(AddOperands.newBuilder()
-                                .setId("50+25")
-                                .setOp1(50).setOp2(25)
+                                .setId(val1 + "+" + val2)
+                                .setOp1(val1).setOp2(val2)
                                 .build());
                         System.out.println("add " + res.getId() + "= " + res.getRes());
                         break;

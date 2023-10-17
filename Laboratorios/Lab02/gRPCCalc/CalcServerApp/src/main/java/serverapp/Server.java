@@ -31,12 +31,28 @@ public class Server extends CalcServiceGrpc.CalcServiceImplBase {
 
     @Override
     public void add(AddOperands request, StreamObserver<Result> responseObserver) {
-        // not implemented
+        int op1 = request.getOp1();
+        int op2 = request.getOp2();
+
+        Result result = Result.newBuilder().setId(request.getId()).setRes(op1 + op2).build();
+
+        responseObserver.onNext(result);
+        responseObserver.onCompleted();
     }
 
     @Override
     public void generatePowers(NumberAndMaxExponent request, StreamObserver<Result> responseObserver) {
-        // not implemented
+        int baseNumber = request.getBaseNumber();
+        int maxExponent = request.getMaxExponent();
+
+        Result result;
+        for (int exp = 0; exp < maxExponent; exp++){
+
+            result = Result.newBuilder().setId(request.getId()).setRes(baseNumber**exp);
+            responseObserver.onNext(result);
+        }
+
+        responseObserver.onCompleted();
     }
 
     @Override
