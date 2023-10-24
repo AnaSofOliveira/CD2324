@@ -1,0 +1,600 @@
+﻿Last login: Tue Oct 17 21:20:46 2023 from 194.210.187.129
+[CD2324N-G03@vm-centos8-java11 ~]$ java -jar anaoliveira/CalcServerApp-1.0-jar-with-dependencies.jar
+
+Server started, listening on 8500
+^C[CD2324N-G03@vm-centos8-java11 ~]$ java -jar anaoliveira/CalcServerApp-1.0-jar-with-dependencies.j
+ 5800
+Server started, listening on 5800
+^C[CD2324N-G03@vm-centos8-java11 ~]$ java -jar anaoliveira/CalcServerApp-1.0-jar-with-dependencies.j
+ 8500
+Server started, listening on 8500
+Recebi um pedido para adicionar.
+5 + 5 = 10
+Recebi um pedido para fazer uma adição sequencial.
+Vou adicionar num: 1
+ a 0
+Vou adicionar num: 2
+ a 1
+Vou adicionar num: 3
+ a 3
+Vou adicionar num: 4
+ a 6
+Vou adicionar num: 5
+ a 10
+Vou adicionar num: 6
+ a 15
+Vou adicionar num: 7
+ a 21
+Vou adicionar num: 8
+ a 28
+Vou adicionar num: 9
+ a 36
+Vou adicionar num: 10
+ a 45
+Vou adicionar num: 11
+ a 55
+Vou adicionar num: 12
+ a 66
+Vou adicionar num: 13
+ a 78
+Vou adicionar num: 14
+ a 91
+Vou adicionar num: 15
+ a 105
+Vou adicionar num: 16
+ a 120
+Vou adicionar num: 17
+ a 136
+Vou adicionar num: 18
+ a 153
+Vou adicionar num: 19
+ a 171
+Vou adicionar num: 20
+ a 190
+Vou adicionar num: 21
+ a 210
+Vou adicionar num: 22
+ a 231
+Vou adicionar num: 23
+ a 253
+Vou adicionar num: 24
+ a 276
+Vou adicionar num: 25
+ a 300
+Vou adicionar num: 26
+ a 325
+Vou adicionar num: 27
+ a 351
+Vou adicionar num: 28
+ a 378
+Vou adicionar num: 29
+ a 406
+Vou adicionar num: 30
+ a 435
+Vou adicionar num: 31
+ a 465
+Vou adicionar num: 32
+ a 496
+Vou adicionar num: 33
+ a 528
+Vou adicionar num: 34
+ a 561
+Vou adicionar num: 35
+ a 595
+Vou adicionar num: 36
+ a 630
+Vou adicionar num: 37
+ a 666
+Vou adicionar num: 38
+ a 703
+Vou adicionar num: 39
+ a 741
+Vou adicionar num: 40
+ a 780
+Vou adicionar num: 41
+ a 820
+Vou adicionar num: 42
+ a 861
+Vou adicionar num: 43
+ a 903
+Vou adicionar num: 44
+ a 946
+Vou adicionar num: 45
+ a 990
+Vou adicionar num: 46
+ a 1035
+Vou adicionar num: 47
+ a 1081
+Vou adicionar num: 48
+ a 1128
+Vou adicionar num: 49
+ a 1176
+Vou adicionar num: 50
+ a 1225
+Vou adicionar num: 51
+ a 1275
+Vou adicionar num: 52
+ a 1326
+Vou adicionar num: 53
+ a 1378
+Vou adicionar num: 54
+ a 1431
+Vou adicionar num: 55
+ a 1485
+Vou adicionar num: 56
+ a 1540
+Vou adicionar num: 57
+ a 1596
+Vou adicionar num: 58
+ a 1653
+Vou adicionar num: 59
+ a 1711
+Vou adicionar num: 60
+ a 1770
+Vou adicionar num: 61
+ a 1830
+Vou adicionar num: 62
+ a 1891
+Vou adicionar num: 63
+ a 1953
+Vou adicionar num: 64
+ a 2016
+Vou adicionar num: 65
+ a 2080
+Vou adicionar num: 66
+ a 2145
+Vou adicionar num: 67
+ a 2211
+Vou adicionar num: 68
+ a 2278
+Vou adicionar num: 69
+ a 2346
+Vou adicionar num: 70
+ a 2415
+Vou adicionar num: 71
+ a 2485
+Vou adicionar num: 72
+ a 2556
+Vou adicionar num: 73
+ a 2628
+Vou adicionar num: 74
+ a 2701
+Vou adicionar num: 75
+ a 2775
+Vou adicionar num: 76
+ a 2850
+Vou adicionar num: 77
+ a 2926
+Vou adicionar num: 78
+ a 3003
+Vou adicionar num: 79
+ a 3081
+Vou adicionar num: 80
+ a 3160
+Vou adicionar num: 81
+ a 3240
+Vou adicionar num: 82
+ a 3321
+Vou adicionar num: 83
+ a 3403
+Vou adicionar num: 84
+ a 3486
+Vou adicionar num: 85
+ a 3570
+Vou adicionar num: 86
+ a 3655
+Vou adicionar num: 87
+ a 3741
+Vou adicionar num: 88
+ a 3828
+Vou adicionar num: 89
+ a 3916
+Vou adicionar num: 90
+ a 4005
+Vou adicionar num: 91
+ a 4095
+Vou adicionar num: 92
+ a 4186
+Vou adicionar num: 93
+ a 4278
+Vou adicionar num: 94
+ a 4371
+Vou adicionar num: 95
+ a 4465
+Vou adicionar num: 96
+ a 4560
+Vou adicionar num: 97
+ a 4656
+Vou adicionar num: 98
+ a 4753
+Vou adicionar num: 99
+ a 4851
+Vou adicionar num: 100
+ a 4950
+Não vou adicionar mais.
+^C[CD2324N-G03@vm-centos8-java11 ~]$
+[CD2324N-G03@vm-centos8-java11 ~]$
+[CD2324N-G03@vm-centos8-java11 ~]$ cd anaoliveira/
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ cat
+
+
+^C
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ ls
+CalcServerApp-1.0-jar-with-dependencies.jar
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ vim Dockerfile
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ vim Dockerfile
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ sudo systemctl start docker
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docket build -t cd-lab2-calc-server:v1 .
+-bash: docket: command not found
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker build -t cd-lab2-calc-server:v1 .
+[+] Building 2.2s (9/9) FINISHED                                                         docker:default
+ => [internal] load .dockerignore                                                                  0.0s
+ => => transferring context: 2B                                                                    0.0s
+ => [internal] load build definition from Dockerfile                                               0.0s
+ => => transferring dockerfile: 308B                                                               0.0s
+ => [internal] load metadata for docker.io/library/openjdk:11                                      0.8s
+ => CACHED [1/4] FROM docker.io/library/openjdk:11@sha256:99bac5bf83633e3c7399aed725c8415e7b569b5  0.0s
+ => [internal] load build context                                                                  0.4s
+ => => transferring context: 18.05MB                                                               0.4s
+ => [2/4] RUN mkdir /usr/cd-lab2-calc-server:v1                                                    0.9s
+ => [3/4] WORKDIR /usr/cd-lab2-calc-server:v1                                                      0.1s
+ => [4/4] COPY CalcServerApp-1.0-jar-with-dependencies.jar .                                       0.3s
+ => exporting to image                                                                             0.1s
+ => => exporting layers                                                                            0.1s
+ => => writing image sha256:b650614821e21495aa22c0f9d4f2313b3b0f75187e825c4339b5ca7ddd1fc466       0.0s
+ => => naming to docker.io/library/cd-lab2-calc-server:v1                                          0.0s
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ ls
+CalcServerApp-1.0-jar-with-dependencies.jar  Dockerfile
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker images
+REPOSITORY                   TAG       IMAGE ID       CREATED              SIZE
+cd-lab2-calc-server          v1        b650614821e2   About a minute ago   672MB
+servicerest                  latest    5398c2da2d51   7 days ago           657MB
+anasofoliveira/servicerest   v1        66e71cc142a4   12 days ago          657MB
+fedora                       latest    86226de74a8c   2 weeks ago          191MB
+hello-world                  latest    9c7a54a9a43c   5 months ago         13.3kB
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker run -d –p 8000:7500 cd-lab2-calc-server 8500:8000
+docker: invalid reference format.
+See 'docker run --help'.
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker run -d –p 8500:8000 cd-lab2-calc-server
+docker: invalid reference format.
+See 'docker run --help'.
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker run –p 8500:8000 cd-lab2-calc-server
+docker: invalid reference format.
+See 'docker run --help'.
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker run –p 8500:8000 cd-lab2-calc-server:v1
+docker: invalid reference format.
+See 'docker run --help'.
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker run --help
+
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Create and run a new container from an image
+
+Aliases:
+  docker container run, docker run
+
+Options:
+      --add-host list                  Add a custom host-to-IP mapping (host:ip)
+      --annotation map                 Add an annotation to the container (passed through to the
+                                       OCI runtime) (default map[])
+  -a, --attach list                    Attach to STDIN, STDOUT or STDERR
+      --blkio-weight uint16            Block IO (relative weight), between 10 and 1000, or 0 to
+                                       disable (default 0)
+      --blkio-weight-device list       Block IO weight (relative device weight) (default [])
+      --cap-add list                   Add Linux capabilities
+      --cap-drop list                  Drop Linux capabilities
+      --cgroup-parent string           Optional parent cgroup for the container
+      --cgroupns string                Cgroup namespace to use (host|private)
+                                       'host':    Run the container in the Docker host's cgroup
+                                       namespace
+                                       'private': Run the container in its own private cgroup
+                                       namespace
+                                       '':        Use the cgroup namespace as configured by the
+                                                  default-cgroupns-mode option on the daemon (default)
+      --cidfile string                 Write the container ID to the file
+      --cpu-period int                 Limit CPU CFS (Completely Fair Scheduler) period
+      --cpu-quota int                  Limit CPU CFS (Completely Fair Scheduler) quota
+      --cpu-rt-period int              Limit CPU real-time period in microseconds
+      --cpu-rt-runtime int             Limit CPU real-time runtime in microseconds
+  -c, --cpu-shares int                 CPU shares (relative weight)
+      --cpus decimal                   Number of CPUs
+      --cpuset-cpus string             CPUs in which to allow execution (0-3, 0,1)
+      --cpuset-mems string             MEMs in which to allow execution (0-3, 0,1)
+  -d, --detach                         Run container in background and print container ID
+      --detach-keys string             Override the key sequence for detaching a container
+      --device list                    Add a host device to the container
+      --device-cgroup-rule list        Add a rule to the cgroup allowed devices list
+      --device-read-bps list           Limit read rate (bytes per second) from a device (default [])
+      --device-read-iops list          Limit read rate (IO per second) from a device (default [])
+      --device-write-bps list          Limit write rate (bytes per second) to a device (default [])
+      --device-write-iops list         Limit write rate (IO per second) to a device (default [])
+      --disable-content-trust          Skip image verification (default true)
+      --dns list                       Set custom DNS servers
+      --dns-option list                Set DNS options
+      --dns-search list                Set custom DNS search domains
+      --domainname string              Container NIS domain name
+      --entrypoint string              Overwrite the default ENTRYPOINT of the image
+  -e, --env list                       Set environment variables
+      --env-file list                  Read in a file of environment variables
+      --expose list                    Expose a port or a range of ports
+      --gpus gpu-request               GPU devices to add to the container ('all' to pass all GPUs)
+      --group-add list                 Add additional groups to join
+      --health-cmd string              Command to run to check health
+      --health-interval duration       Time between running the check (ms|s|m|h) (default 0s)
+      --health-retries int             Consecutive failures needed to report unhealthy
+      --health-start-period duration   Start period for the container to initialize before
+                                       starting health-retries countdown (ms|s|m|h) (default 0s)
+      --health-timeout duration        Maximum time to allow one check to run (ms|s|m|h) (default 0s)
+      --help                           Print usage
+  -h, --hostname string                Container host name
+      --init                           Run an init inside the container that forwards signals and
+                                       reaps processes
+  -i, --interactive                    Keep STDIN open even if not attached
+      --ip string                      IPv4 address (e.g., 172.30.100.104)
+      --ip6 string                     IPv6 address (e.g., 2001:db8::33)
+      --ipc string                     IPC mode to use
+      --isolation string               Container isolation technology
+      --kernel-memory bytes            Kernel memory limit
+  -l, --label list                     Set meta data on a container
+      --label-file list                Read in a line delimited file of labels
+      --link list                      Add link to another container
+      --link-local-ip list             Container IPv4/IPv6 link-local addresses
+      --log-driver string              Logging driver for the container
+      --log-opt list                   Log driver options
+      --mac-address string             Container MAC address (e.g., 92:d0:c6:0a:29:33)
+  -m, --memory bytes                   Memory limit
+      --memory-reservation bytes       Memory soft limit
+      --memory-swap bytes              Swap limit equal to memory plus swap: '-1' to enable
+                                       unlimited swap
+      --memory-swappiness int          Tune container memory swappiness (0 to 100) (default -1)
+      --mount mount                    Attach a filesystem mount to the container
+      --name string                    Assign a name to the container
+      --network network                Connect a container to a network
+      --network-alias list             Add network-scoped alias for the container
+      --no-healthcheck                 Disable any container-specified HEALTHCHECK
+      --oom-kill-disable               Disable OOM Killer
+      --oom-score-adj int              Tune host's OOM preferences (-1000 to 1000)
+      --pid string                     PID namespace to use
+      --pids-limit int                 Tune container pids limit (set -1 for unlimited)
+      --platform string                Set platform if server is multi-platform capable
+      --privileged                     Give extended privileges to this container
+  -p, --publish list                   Publish a container's port(s) to the host
+  -P, --publish-all                    Publish all exposed ports to random ports
+      --pull string                    Pull image before running ("always", "missing", "never")
+                                       (default "missing")
+  -q, --quiet                          Suppress the pull output
+      --read-only                      Mount the container's root filesystem as read only
+      --restart string                 Restart policy to apply when a container exits (default "no")
+      --rm                             Automatically remove the container when it exits
+      --runtime string                 Runtime to use for this container
+      --security-opt list              Security Options
+      --shm-size bytes                 Size of /dev/shm
+      --sig-proxy                      Proxy received signals to the process (default true)
+      --stop-signal string             Signal to stop the container
+      --stop-timeout int               Timeout (in seconds) to stop a container
+      --storage-opt list               Storage driver options for the container
+      --sysctl map                     Sysctl options (default map[])
+      --tmpfs list                     Mount a tmpfs directory
+  -t, --tty                            Allocate a pseudo-TTY
+      --ulimit ulimit                  Ulimit options (default [])
+  -u, --user string                    Username or UID (format: <name|uid>[:<group|gid>])
+      --userns string                  User namespace to use
+      --uts string                     UTS namespace to use
+  -v, --volume list                    Bind mount a volume
+      --volume-driver string           Optional volume driver for the container
+      --volumes-from list              Mount volumes from the specified container(s)
+  -w, --workdir string                 Working directory inside the container
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker run –p 8500:8000 cd-lab2-calc-server
+docker: invalid reference format.
+See 'docker run --help'.
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker images
+REPOSITORY                   TAG       IMAGE ID       CREATED         SIZE
+cd-lab2-calc-server          v1        b650614821e2   3 minutes ago   672MB
+servicerest                  latest    5398c2da2d51   7 days ago      657MB
+anasofoliveira/servicerest   v1        66e71cc142a4   12 days ago     657MB
+fedora                       latest    86226de74a8c   2 weeks ago     191MB
+hello-world                  latest    9c7a54a9a43c   5 months ago    13.3kB
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker run –d cd-lab2-calc-server
+docker: invalid reference format.
+See 'docker run --help'.
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker run cd-lab2-calc-server
+Unable to find image 'cd-lab2-calc-server:latest' locally
+docker: Error response from daemon: pull access denied for cd-lab2-calc-server, repository does not exis
+t or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker run cd-lab2-calc-server:v1
+Server started, listening on 8500
+^C[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker run cd-lab2-calc-server:v1 -d
+docker: Error response from daemon: failed to create task for container: failed to create shim task: OCI
+ runtime create failed: runc create failed: unable to start container process: exec: "-d": executable fi
+le not found in $PATH: unknown.
+ERRO[0000] error waiting for container:
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker run cd-lab2-calc-server:v1 -d -p 8500:7500
+docker: Error response from daemon: failed to create task for container: failed to create shim task: OCI
+ runtime create failed: runc create failed: unable to start container process: exec: "-d": executable fi
+le not found in $PATH: unknown.
+ERRO[0000] error waiting for container:
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker run cd-lab2-calc-server:v1 -p 8500:7500
+docker: Error response from daemon: failed to create task for container: failed to create shim task: OCI
+ runtime create failed: runc create failed: unable to start container process: exec: "-p": executable fi
+le not found in $PATH: unknown.
+ERRO[0000] error waiting for container:
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker run -p 8500:7500 cd-lab2-calc-server:v1
+Server started, listening on 8500
+^C[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker run -p 8500:7500 cd-lab2-calc-server:v1 -d
+docker: Error response from daemon: failed to create task for container: failed to create shim task: OCI
+ runtime create failed: runc create failed: unable to start container process: exec: "-d": executable fi
+le not found in $PATH: unknown.
+ERRO[0000] error waiting for container:
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker run -p 8500:7500 -d cd-lab2-calc-server:v1
+f42db8989c37a2e42f52d3d247ed4c02b06e144b7ccbb799b866e9fab8b53808
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker ps -all
+CONTAINER ID   IMAGE                    COMMAND                  CREATED         STATUS         PORTS
+                                    NAMES
+f42db8989c37   cd-lab2-calc-server:v1   "java -jar CalcServe…"   2 minutes ago   Up 2 minutes   0.0.0.0:
+8500->7500/tcp, :::8500->7500/tcp   eloquent_mcclintock
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker kill f42
+f42
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker run -p 8500:7500 cd-lab2-calc-server:v1
+Server started, listening on 8500
+^C[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker login
+Log in with your Docker ID or email address to push and pull images from Docker Hub. If you don't have a
+ Docker ID, head over to https://hub.docker.com/ to create one.
+You can log in with your password or a Personal Access Token (PAT). Using a limited-scope PAT grants bet
+ter security and is required for organizations using SSO. Learn more at https://docs.docker.com/go/acces
+s-tokens/
+
+Username: AnaSofOliveira
+Password:
+Error response from daemon: Get "https://registry-1.docker.io/v2/": unauthorized: incorrect username or
+password
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker login
+Log in with your Docker ID or email address to push and pull images from Docker Hub. If you don't have a
+ Docker ID, head over to https://hub.docker.com/ to create one.
+You can log in with your password or a Personal Access Token (PAT). Using a limited-scope PAT grants bet
+ter security and is required for organizations using SSO. Learn more at https://docs.docker.com/go/acces
+s-tokens/
+
+Username: anasofoliveira
+Password:
+Error response from daemon: Get "https://registry-1.docker.io/v2/": unauthorized: incorrect username or
+password
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker login
+Log in with your Docker ID or email address to push and pull images from Docker Hub. If you don't have a
+ Docker ID, head over to https://hub.docker.com/ to create one.
+You can log in with your password or a Personal Access Token (PAT). Using a limited-scope PAT grants bet
+ter security and is required for organizations using SSO. Learn more at https://docs.docker.com/go/acces
+s-tokens/
+
+Username: anasofoliveira
+Password:
+Error response from daemon: Get "https://registry-1.docker.io/v2/": unauthorized: incorrect username or
+password
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker login
+Log in with your Docker ID or email address to push and pull images from Docker Hub. If you don't have a
+ Docker ID, head over to https://hub.docker.com/ to create one.
+You can log in with your password or a Personal Access Token (PAT). Using a limited-scope PAT grants bet
+ter security and is required for organizations using SSO. Learn more at https://docs.docker.com/go/acces
+s-tokens/
+
+Username: anasofiaoliveira
+Password:
+Error response from daemon: Get "https://registry-1.docker.io/v2/": unauthorized: incorrect username or
+password
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker login
+Log in with your Docker ID or email address to push and pull images from Docker Hub. If you don't have a
+ Docker ID, head over to https://hub.docker.com/ to create one.
+You can log in with your password or a Personal Access Token (PAT). Using a limited-scope PAT grants bet
+ter security and is required for organizations using SSO. Learn more at https://docs.docker.com/go/acces
+s-tokens/
+
+Username: anasofoliveira
+Password:
+Error response from daemon: Get "https://registry-1.docker.io/v2/": unauthorized: incorrect username or
+password
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker login
+Log in with your Docker ID or email address to push and pull images from Docker Hub. If you don't have a
+ Docker ID, head over to https://hub.docker.com/ to create one.
+You can log in with your password or a Personal Access Token (PAT). Using a limited-scope PAT grants bet
+ter security and is required for organizations using SSO. Learn more at https://docs.docker.com/go/acces
+s-tokens/
+
+Username: anasofoliveira
+Password:
+WARNING! Your password will be stored unencrypted in /home/CD2324N-G03/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker tag cd-lab2-calc-server:v1 anasofoliveira/calculador
+a
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker tag cd-lab2-calc-server:v1 anasofoliveira/calculador
+a:v1
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker build -t anasofoliveira/calculadora:v1 .
+[+] Building 0.9s (10/10) FINISHED                                                       docker:default
+ => [internal] load build definition from Dockerfile                                               0.0s
+ => => transferring dockerfile: 308B                                                               0.0s
+ => [internal] load .dockerignore                                                                  0.0s
+ => => transferring context: 2B                                                                    0.0s
+ => [internal] load metadata for docker.io/library/openjdk:11                                      0.8s
+ => [auth] library/openjdk:pull token for registry-1.docker.io                                     0.0s
+ => [1/4] FROM docker.io/library/openjdk:11@sha256:99bac5bf83633e3c7399aed725c8415e7b569b54e03e45  0.0s
+ => [internal] load build context                                                                  0.0s
+ => => transferring context: 126B                                                                  0.0s
+ => CACHED [2/4] RUN mkdir /usr/cd-lab2-calc-server:v1                                             0.0s
+ => CACHED [3/4] WORKDIR /usr/cd-lab2-calc-server:v1                                               0.0s
+ => CACHED [4/4] COPY CalcServerApp-1.0-jar-with-dependencies.jar .                                0.0s
+ => exporting to image                                                                             0.0s
+ => => exporting layers                                                                            0.0s
+ => => writing image sha256:b650614821e21495aa22c0f9d4f2313b3b0f75187e825c4339b5ca7ddd1fc466       0.0s
+ => => naming to docker.io/anasofoliveira/calculadora:v1                                           0.0s
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker push anasofoliveira/calculadora:v1
+The push refers to repository [docker.io/anasofoliveira/calculadora]
+1fbdd4b04c3e: Pushed
+5f70bf18a086: Mounted from anasofoliveira/servicerest
+363e615c201d: Pushed
+7b7f3078e1db: Mounted from anasofoliveira/servicerest
+826c3ddbb29c: Mounted from anasofoliveira/servicerest
+b626401ef603: Mounted from anasofoliveira/servicerest
+9b55156abf26: Mounted from anasofoliveira/servicerest
+293d5db30c9f: Mounted from anasofoliveira/servicerest
+03127cdb479b: Mounted from anasofoliveira/servicerest
+9c742cd6c7a5: Mounted from anasofoliveira/servicerest
+v1: digest: sha256:bc0896d2f71375f447e3b5e1150535edff7a515a8f77b6ee7c4a3ef4bbe37218 size: 2420
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker images
+REPOSITORY                   TAG       IMAGE ID       CREATED          SIZE
+anasofoliveira/calculadora   latest    b650614821e2   18 minutes ago   672MB
+anasofoliveira/calculadora   v1        b650614821e2   18 minutes ago   672MB
+cd-lab2-calc-server          v1        b650614821e2   18 minutes ago   672MB
+servicerest                  latest    5398c2da2d51   7 days ago       657MB
+anasofoliveira/servicerest   v1        66e71cc142a4   12 days ago      657MB
+fedora                       latest    86226de74a8c   2 weeks ago      191MB
+hello-world                  latest    9c7a54a9a43c   5 months ago     13.3kB
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker image rm b65
+Error response from daemon: conflict: unable to delete b650614821e2 (must be forced) - image is referenc
+ed in multiple repositories
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker image rm anasofoliveira/calculadora
+Untagged: anasofoliveira/calculadora:latest
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker images
+REPOSITORY                   TAG       IMAGE ID       CREATED          SIZE
+anasofoliveira/calculadora   v1        b650614821e2   19 minutes ago   672MB
+cd-lab2-calc-server          v1        b650614821e2   19 minutes ago   672MB
+servicerest                  latest    5398c2da2d51   7 days ago       657MB
+anasofoliveira/servicerest   v1        66e71cc142a4   12 days ago      657MB
+fedora                       latest    86226de74a8c   2 weeks ago      191MB
+hello-world                  latest    9c7a54a9a43c   5 months ago     13.3kB
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker image rm cd-lab2-calc-server:v1
+Untagged: cd-lab2-calc-server:v1
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker images
+REPOSITORY                   TAG       IMAGE ID       CREATED          SIZE
+anasofoliveira/calculadora   v1        b650614821e2   19 minutes ago   672MB
+servicerest                  latest    5398c2da2d51   7 days ago       657MB
+anasofoliveira/servicerest   v1        66e71cc142a4   12 days ago      657MB
+fedora                       latest    86226de74a8c   2 weeks ago      191MB
+hello-world                  latest    9c7a54a9a43c   5 months ago     13.3kB
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$ docker image rm servicerest
+Error response from daemon: conflict: unable to remove repository reference "servicerest" (must force) -
+ container 30cf3170e3be is using its referenced image 5398c2da2d51
+[CD2324N-G03@vm-centos8-java11 anaoliveira]$
