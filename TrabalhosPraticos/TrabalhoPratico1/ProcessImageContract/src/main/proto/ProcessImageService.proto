@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "imagestubs";
+
+package imageservice; // package do proto
+
+// serviço com operações sobre números
+service ProcessImageService {
+
+  rpc uploadImage(stream Reply) returns (Result);
+
+  rpc downloadImage(identifier) returns (stream Image);
+
+}
+
+message Reply {
+  string Id = 1;
+  string name = 2;
+  bytes imgContent = 3;
+  repeated string keywords = 4;
+}
+
+message Result {
+  string hash = 1;
+}
+
+message identifier {
+  string hash = 1;
+}
+
+message Image {
+  string Id = 1;
+  string name = 2;
+  string markedImage = 3;
+}

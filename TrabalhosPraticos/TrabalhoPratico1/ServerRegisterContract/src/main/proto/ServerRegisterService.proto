@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "servregstubs";
+
+package servregservice; // package do proto
+
+// serviço com operações sobre números
+service ServerRegisterService {
+
+  rpc registerServer(Reply) returns (Result);
+
+}
+
+message Reply {
+  string Id = 1;
+  string Ip = 2;
+  int32 port = 3;
+}
+
+message Result {
+  string Id = 1;
+  bool success = 2;
+}
