@@ -20,7 +20,7 @@ service CalcService {
 message AddOperands {
     string Id = 1;
     int32 op1 = 2;
-    int32 op2 = 3;
+    int32 op2 =   3;
 }
 
 message NumberAndMaxExponent {
