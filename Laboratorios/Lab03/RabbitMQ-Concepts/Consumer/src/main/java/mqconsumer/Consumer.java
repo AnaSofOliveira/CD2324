@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Consumer {
 
-    static String IP_BROKER="34.175.216.198";
+    static String IP_BROKER="34.28.144.146";
     static Logger logger=new SimpleLoggerFactory().getLogger("RabbitMQ-Consumer");
 
      public static void main(String[] args) {

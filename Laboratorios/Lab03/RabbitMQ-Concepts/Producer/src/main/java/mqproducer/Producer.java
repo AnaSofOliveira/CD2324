@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Producer {
 
 
-    private static String IP_BROKER="34.175.216.198";
+    private static String IP_BROKER="34.28.144.146";
 
     private static String exchangeName = null;
     private static String routingKey = null;
