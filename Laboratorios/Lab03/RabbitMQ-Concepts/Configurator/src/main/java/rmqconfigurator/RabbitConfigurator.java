@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class RabbitConfigurator {
 
 
-    static String IP_BROKER="34.175.216.198";
+    static String IP_BROKER="34.28.144.146";
 
     private static int Menu() {
         int op;
