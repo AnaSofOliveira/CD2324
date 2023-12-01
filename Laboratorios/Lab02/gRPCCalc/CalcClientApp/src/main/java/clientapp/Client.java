@@ -33,20 +33,83 @@ public class Client {
             blockingStub = CalcServiceGrpc.newBlockingStub(channel);
             noBlockStub = CalcServiceGrpc.newStub(channel);
 
+            Scanner numbers = new Scanner(System.in);
             while (true) {
                 switch (Menu()) {
                     case 1:  // adicionar dois numeros
+                        System.out.println("Insert the first number: ");
+                        int val1 = numbers.nextInt();
+                        System.out.println("Insert the second number: ");
+                        int val2 = numbers.nextInt();
                         Result res = blockingStub.add(AddOperands.newBuilder()
-                                .setId("50+25")
-                                .setOp1(50).setOp2(25)
+                                .setId(val1 + "+" + val2)
+                                .setOp1(val1).setOp2(val2)
                                 .build());
                         System.out.println("add " + res.getId() + "= " + res.getRes());
                         break;
+
                     case 2: // calcular as  potencias de x^y
+                        System.out.println("Insert the base number: ");
+                        int base = numbers.nextInt();
+                        System.out.println("Insert the maximum exponential: ");
+                        int power = numbers.nextInt();
+
+                        NumberAndMaxExponent numberAndMaxExponent = NumberAndMaxExponent.newBuilder().setId(base+"^"+power).setBaseNumber(base).setMaxExponent(power).build();
+
+                        StreamObserverClient streamObserverClient1 = new StreamObserverClient();
+
+                        noBlockStub.generatePowers(numberAndMaxExponent, streamObserverClient1);
+
+                        while (!streamObserverClient1.isCompleted()){
+                            System.out.println("Active and waiting for Case2 completed ");
+                            Thread.sleep(2*1000);
+                        }
+
+                        if(streamObserverClient1.onSuccesss()){
+                            for(Result result: streamObserverClient1.getResults()){
+                                System.out.println("Resultado " + result.getId() + " = " + result.getRes());
+                            }
+                        }
                         break;
+
                     case 3: //somar a sequencia dos numeros de x a y
+
+                        System.out.println("Insert the minimum number: ");
+                        int min = numbers.nextInt();
+                        System.out.println("Insert the maximum exponential: ");
+                        int max = numbers.nextInt();
+
+                        StreamObserverClient streamObserverClient2 = new StreamObserverClient();
+
+                        StreamObserver<Number> requestObserver = noBlockStub.addSeqOfNumbers(streamObserverClient2);
+
+                        for(int i = min; i <= max; i++ ){
+                            System.out.println("Pedido: Adiciona mais " + i);
+                            requestObserver.onNext(Number.newBuilder().setNum(i).build());
+                        }
+                        requestObserver.onCompleted();
                         break;
+
                     case 4: //sequencia de operacões de soma x + y
+
+                        StreamObserverClient streamObserverClient3 = new StreamObserverClient();
+
+                        StreamObserver<AddOperands> requestObserverMultApp = noBlockStub.multipleAdd(streamObserverClient3);
+
+                        val1 = 1; val2 = 2;
+                        System.out.println("Pedido: " + val1 + " + " + val2);
+                        requestObserverMultApp.onNext(AddOperands.newBuilder().setId(val1 + "+" + val2).setOp1(val1).setOp2(val2).build());
+
+                        val1 = 3; val2 = 5;
+                        System.out.println("Pedido: " + val1 + " + " + val2);
+                        requestObserverMultApp.onNext(AddOperands.newBuilder().setId(val1 + "+" + val2).setOp1(val1).setOp2(val2).build());
+
+                        val1 = 15; val2 = 10;
+                        System.out.println("Pedido: " + val1 + " + " + val2);
+                        requestObserverMultApp.onNext(AddOperands.newBuilder().setId(val1 + "+" + val2).setOp1(val1).setOp2(val2).build());
+
+                        requestObserverMultApp.onCompleted();
+
                         break;
                     case 99:
                         System.exit(0);

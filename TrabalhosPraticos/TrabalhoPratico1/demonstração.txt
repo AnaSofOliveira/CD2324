@@ -1,0 +1,62 @@
+REGISTER: 
+java -jar register/register.jar 8000 
+
+
+SERVER 1:
+
+Register: 34.175.216.198
+Server 1: 34.175.187.217
+
+sudo systemctl start docker
+sudo newgrp - docker
+cd ../home/CD2324N-G03/
+java -jar server/server.jar 34.175.216.198 8000 34.175.187.217 7500
+
+
+SERVER 2:
+
+Register: 34.175.216.198
+Server 2: 34.175.116.242
+
+sudo systemctl start docker
+sudo newgrp - docker
+cd ../home/CD2324N-G03/
+java -jar server/server.jar 34.175.216.198 8000 34.175.116.242 6500
+
+
+SERVER 3:
+
+Register: 34.175.216.198
+Server 3: 34.175.5.114 
+
+sudo systemctl start docker
+sudo newgrp - docker
+cd ../home/CD2324N-G03/
+java -jar server/server.jar 34.175.216.198 8000 34.175.5.114 7000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\anaso\OneDrive\Documents\CD2324\TrabalhosPraticos\CD-2324-G03\TP1\Images\isel.jpg
+C:\Users\anaso\OneDrive\Documents\CD2324\TrabalhosPraticos\CD-2324-G03\TP1\Images\icon.jpg
+
+
+C:\Users\anaso\OneDrive\Documents\CD2324\TrabalhosPraticos\CD-2324-G03\TP1\Images
+
+
+
+
+
+
