@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class ProducerWithHeaders {
 
-    private static String IP_BROKER="34.175.216.198";
+    private static String IP_BROKER="35.238.75.114";
 
     private static String exchangeName = null;
 
@@ -45,6 +45,7 @@ public class ProducerWithHeaders {
             connection.close();
 
         } catch (Exception ex) {
+            System.out.println(ex.getMessage());
             ex.printStackTrace();
 
         }

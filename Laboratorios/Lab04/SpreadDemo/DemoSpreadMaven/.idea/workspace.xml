@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2a69850-ee16-49bd-ab10-fbf980bde143" name="Changes" comment="" />
+    <list default="true" id="f2a69850-ee16-49bd-ab10-fbf980bde143" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Configurator/src/main/java/rmqconfigurator/RabbitConfigurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Configurator/src/main/java/rmqconfigurator/RabbitConfigurator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Configurator/target/classes/rmqconfigurator/RabbitConfigurator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Configurator/target/classes/rmqconfigurator/RabbitConfigurator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Consumer/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Consumer/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Consumer/src/main/java/mqconsumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Consumer/src/main/java/mqconsumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Consumer/target/classes/mqconsumer/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Consumer/target/classes/mqconsumer/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Producer/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Producer/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Producer/src/main/java/mqproducer/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Producer/src/main/java/mqproducer/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Producer/src/main/java/mqproducer/ProducerWithHeaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Producer/src/main/java/mqproducer/ProducerWithHeaders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Producer/target/classes/mqproducer/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Producer/target/classes/mqproducer/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Producer/target/classes/mqproducer/ProducerWithHeaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab03/RabbitMQ-Concepts/Producer/target/classes/mqproducer/ProducerWithHeaders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demospread/MessageHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demospread/MessageHandling.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,19 +42,24 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "lab4",
-    "last_opened_file_path": "C:/Users/anaso/OneDrive/Documents/CD2324/TrabalhosPraticos/CD-2324-G03/TPFinal/Contratos/ClientRegisterContract/pom.xml",
+    "last_opened_file_path": "C:/Users/anaso/OneDrive/Documents/CD2324/Laboratorios/Lab03/RabbitMQ-Concepts/Consumer/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install:install-file -Dfile=spread-4.4.0.jar -DgroupId=org.spread -DartifactId=spread -Dversion=4.4.0 -Dpackaging=jar " />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="DemoSpread" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demospread.DemoSpread" />
@@ -71,6 +90,7 @@
       <updated>1701206838805</updated>
       <workItem from="1701206840418" duration="2915000" />
       <workItem from="1701210145764" duration="22000" />
+      <workItem from="1701600993161" duration="6909000" />
     </task>
     <servers />
   </component>

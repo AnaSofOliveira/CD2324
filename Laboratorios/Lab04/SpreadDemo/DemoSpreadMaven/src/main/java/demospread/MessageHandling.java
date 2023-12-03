@@ -16,7 +16,7 @@ public class MessageHandling implements BasicMessageListener {
     public void messageReceived(SpreadMessage spreadMessage) {
         try {
             System.out.println("Message Received ThreadID="+Thread.currentThread().getId()+":");
-            System.out.println("Membership info: " + spreadMessage.getMembershipInfo().);
+            System.out.println("Membership info: " + spreadMessage.getMembershipInfo());
             PrintMessages.MessageDetails(spreadMessage);
             // enviar reply direto para o sender se a mensagem tiver conteudo "request"
             if (!spreadMessage.isMembership()) {
