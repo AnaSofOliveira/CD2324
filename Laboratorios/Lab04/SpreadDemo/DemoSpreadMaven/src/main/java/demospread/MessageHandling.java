@@ -5,6 +5,8 @@ import spread.SpreadConnection;
 import spread.SpreadGroup;
 import spread.SpreadMessage;
 
+import java.util.Arrays;
+
 public class MessageHandling implements BasicMessageListener {
     private final SpreadConnection connection;
 
@@ -16,6 +18,13 @@ public class MessageHandling implements BasicMessageListener {
     public void messageReceived(SpreadMessage spreadMessage) {
         try {
             System.out.println("Message Received ThreadID="+Thread.currentThread().getId()+":");
+
+            SpreadGroup[] members = spreadMessage.getMembershipInfo().getMembers();
+
+            for (SpreadGroup m: members) {
+                System.out.println(m.);
+            }
+
             System.out.println("Membership info: " + spreadMessage.getMembershipInfo());
             PrintMessages.MessageDetails(spreadMessage);
             // enviar reply direto para o sender se a mensagem tiver conteudo "request"

@@ -1,0 +1,29 @@
+Mensagens
+
+
+* Pedido de resumo: 
+
+Servidor -> SpreadGroup
+Operação: resumo
+Tipo: Alimentar/ Casa
+
+
+Worker (Leader) -> RabbitMQ
+Operação: resumo
+Tipo: Alimentar/ Casa
+Exchange: <nomeExchange>
+Localização: <pathToFile>
+
+
+
+* Pedido de registo de vendas: 
+
+UserApp -> RabbitMQ
+Operação: venda
+Tipo: Alimentar/Cada
+Produto: <nomeProduto> 
+
+
+
+
+

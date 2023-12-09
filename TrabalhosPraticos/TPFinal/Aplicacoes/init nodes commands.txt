@@ -1,0 +1,30 @@
+tf-node1:
+
+sudo service glusterd start
+sleep 10
+sudo mount -t glusterfs tf-node1:/glustervol /var/sharedfiles
+/usr/local/sbin/spread -c /usr/local/etc/vmsSpread.conf > /tmp/spreadlogs 2>&1 &
+
+sudo systemctl start docker
+sudo docker run -d --hostname rabbithost --name rabbitmg -p 5672:5672 -p 15672:15672 rabbitmq:management
+
+
+
+
+tf-node2: 
+
+sudo service glusterd start
+sleep 10
+sudo mount -t glusterfs tf-node2:/glustervol /var/sharedfiles
+/usr/local/sbin/spread -c /usr/local/etc/vmsSpread.conf > /tmp/spreadlogs 2>&1 &
+
+
+
+
+tf-node3: 
+
+sudo service glusterd start
+sleep 10
+sudo mount -t glusterfs tf-node3:/glustervol /var/sharedfiles
+/usr/local/sbin/spread -c /usr/local/etc/vmsSpread.conf > /tmp/spreadlogs 2>&1 &
+
