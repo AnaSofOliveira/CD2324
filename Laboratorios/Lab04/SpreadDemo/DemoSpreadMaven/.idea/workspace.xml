@@ -4,7 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2a69850-ee16-49bd-ab10-fbf980bde143" name="Changes" comment="" />
+    <list default="true" id="f2a69850-ee16-49bd-ab10-fbf980bde143" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demospread/MessageHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demospread/MessageHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demospread/MessageHandling.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demospread/MessageHandling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Client/assembly.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Client/src/main/java/clientapp/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Client/src/main/java/clientapp/DownloadFileObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Client/src/main/java/clientapp/StreamObserverUploadImageResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/MarkApp/assembly.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/MarkApp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/MarkApp/src/main/java/markapp/MarkApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Register/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Register/assembly.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Register/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Register/src/main/java/registerapp/ClientRegister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Register/src/main/java/registerapp/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Register/src/main/java/registerapp/ServerRegister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Register/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Register/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Register/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Register/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Server/assembly.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Server/src/main/java/serverapp/ProcessImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Server/src/main/java/serverapp/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Server/src/main/java/serverapp/StreamObserverImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Server/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Server/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Server/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Aplicações/Server/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ClientRegisterContract/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ClientRegisterContract/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ClientRegisterContract/src/main/proto/ClientRegisterService.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ClientRegisterContract/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ClientRegisterContract/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ClientRegisterContract/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ClientRegisterContract/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ProcessImageContract/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ProcessImageContract/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ProcessImageContract/src/main/proto/ProcessImageService.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ProcessImageContract/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ProcessImageContract/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ProcessImageContract/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ProcessImageContract/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ServerRegisterContract/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ServerRegisterContract/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ServerRegisterContract/src/main/proto/ServerRegisterService.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ServerRegisterContract/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ServerRegisterContract/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ServerRegisterContract/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/Entrega/Contratos/ServerRegisterContract/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TrabalhosPraticos/TrabalhoPratico1/demonstração.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,25 +76,30 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "lab4",
-    "last_opened_file_path": "C:/Users/anaso/OneDrive/Documents/CD2324/TrabalhosPraticos/CD-2324-G03/TPFinal/Contratos/ClientRegisterContract/pom.xml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lab4&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anaso/OneDrive/Documents/CD2324/TrabalhosPraticos/CD-2324-G03/TPFinal/Aplicacoes/Worker/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install:install-file -Dfile=spread-4.4.0.jar -DgroupId=org.spread -DartifactId=spread -Dversion=4.4.0 -Dpackaging=jar " />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="DemoSpread" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demospread.DemoSpread" />
@@ -71,6 +130,15 @@
       <updated>1701206838805</updated>
       <workItem from="1701206840418" duration="2915000" />
       <workItem from="1701210145764" duration="22000" />
+      <workItem from="1701600993161" duration="6909000" />
+      <workItem from="1701717559370" duration="2099000" />
+      <workItem from="1701801145451" duration="784000" />
+      <workItem from="1701810936224" duration="2454000" />
+      <workItem from="1701962271149" duration="185000" />
+      <workItem from="1701966143917" duration="600000" />
+      <workItem from="1701970350971" duration="765000" />
+      <workItem from="1701983251957" duration="2452000" />
+      <workItem from="1702040533620" duration="627000" />
     </task>
     <servers />
   </component>
