@@ -1,0 +1,10 @@
+Dec 10,2023 19:18:47 | Categoria: alimentar | Produto: batatas
+Dec 10,2023 19:18:47 | Categoria: alimentar | Produto: pao
+Dec 10,2023 19:21:39 | Categoria: alimentar | Produto: batatas
+Dec 10,2023 20:59:32 | Categoria: alimentar | Produto: batatas
+Dec 10,2023 20:59:32 | Categoria: alimentar | Produto: bolachas
+Dec 10,2023 20:59:33 | Categoria: alimentar | Produto: bolachas
+Dec 10,2023 20:59:33 | Categoria: alimentar | Produto: pao
+Dec 10,2023 20:59:33 | Categoria: alimentar | Produto: bolachas
+Dec 10,2023 21:46:34 | Categoria: alimentar | Produto: batatas
+Dec 10,2023 21:46:46 | Categoria: alimentar | Produto: pao
