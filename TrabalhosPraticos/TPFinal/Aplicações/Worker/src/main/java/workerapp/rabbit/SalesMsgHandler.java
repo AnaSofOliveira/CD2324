@@ -12,12 +12,12 @@ import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class PoSMsgHandler implements CancelCallback, DeliverCallback {
+public class SalesMsgHandler implements CancelCallback, DeliverCallback {
     private final Channel rmqChannel;
     private final long workerID;
     private static final String SHARED_FOLDER = "/var/sharedfiles/";
 
-    public PoSMsgHandler(Channel rmqChannel, long workerID) {
+    public SalesMsgHandler(Channel rmqChannel, long workerID) {
         this.rmqChannel = rmqChannel;
         this.workerID = workerID;
     }
@@ -38,17 +38,9 @@ public class PoSMsgHandler implements CancelCallback, DeliverCallback {
 
         byte[] bMessage = recMessage.getBytes(StandardCharsets.UTF_8);
         String jsonMessage = new String(bMessage, StandardCharsets.UTF_8);
-        PoSMessage posMessage = new GsonBuilder().create().fromJson(jsonMessage, PoSMessage.class);
+        SalesMessage salesMessage = new GsonBuilder().create().fromJson(jsonMessage, SalesMessage.class);
 
-        String produto = posMessage.getProduto();
-        String categoria = posMessage.getCategoria();
-
-        SimpleDateFormat sdf = new SimpleDateFormat("MMM dd,yyyy HH:mm:ss");
-        Date resultdate = new Date(System.currentTimeMillis());
-
-        String date = sdf.format(resultdate);
-
-        boolean fileSaved = FilesManager.addProductToFile(date, produto, categoria, SHARED_FOLDER + workerID + ".txt");
+        boolean fileSaved = FilesManager.addProductToFile(salesMessage, SHARED_FOLDER + workerID + ".txt");
 
         if(fileSaved){
             this.rmqChannel.basicAck(deliverTag, false);
