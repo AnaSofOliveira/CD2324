@@ -4,7 +4,7 @@ import com.google.gson.GsonBuilder;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
-import workerapp.rabbit.PoSMsgHandler;
+import workerapp.rabbit.SalesMsgHandler;
 import workerapp.rabbit.RMessage;
 import workerapp.spread.AdvancedMessageHandler;
 import workerapp.spread.SMessage;
@@ -122,7 +122,7 @@ public class Worker extends Thread{
     }
 
     private void registerSales() {
-        PoSMsgHandler gestorMensagens = new PoSMsgHandler(rmqChannel, this.id);
+        SalesMsgHandler gestorMensagens = new SalesMsgHandler(rmqChannel, this.id);
 
         try {
             rmqChannel.basicConsume(mainJobType, false, gestorMensagens, gestorMensagens);

@@ -1,4 +1,3 @@
-workerapp\rabbit\PoSMessage.class
 workerapp\spread\SMessage.class
 workerapp\rabbit\RMessage.class
 workerapp\Worker.class
@@ -7,4 +6,3 @@ workerapp\Worker$1.class
 workerapp\FilesManager.class
 workerapp\WState.class
 workerapp\spread\AdvancedMessageHandler$2.class
-workerapp\rabbit\PoSMsgHandler.class

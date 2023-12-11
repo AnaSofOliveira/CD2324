@@ -1,11 +1,15 @@
 package workerapp;
 
+import workerapp.rabbit.SalesMessage;
+
 import java.io.*;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class FilesManager {
@@ -70,11 +74,22 @@ public class FilesManager {
         }
     }
 
-    public static boolean addProductToFile(String date, String product, String category, String filePath) {
+    public static boolean addProductToFile(SalesMessage salesMessage, String filePath) {
         try {
             FileWriter fileWriter = new FileWriter(filePath, true);
             PrintWriter printWriter = new PrintWriter(fileWriter);
-            printWriter.println(date + " | Categoria: " + category + " | Produto: " + product);
+
+            String data = String.valueOf(salesMessage.getData());
+            String categoria = salesMessage.getCategoria();
+            String produto = salesMessage.getProduto();
+            String quant = String.valueOf(salesMessage.getQuantidade());
+            String sIVA = String.valueOf(salesMessage.getPrecoSIVA());
+            String cIVA = String.valueOf(salesMessage.getPrecoSIVA());
+
+            printWriter.println("Data de Venda: " + data + " | Categoria: " + categoria +
+                    " | Produto: " + produto + " | Quantidade: " + quant + " | Preco: " + cIVA +
+                    "€ (" + sIVA + "€ s/ Iva)");
+
             printWriter.close();
             return true;
         } catch (IOException e) {

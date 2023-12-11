@@ -1,4 +1,4 @@
-package posapp;
+package workerapp.rabbit;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

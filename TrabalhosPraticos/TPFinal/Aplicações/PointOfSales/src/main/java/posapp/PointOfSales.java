@@ -37,7 +37,13 @@ public class PointOfSales {
                     String produto = readline("Qual o produto?");
                     if (produto.compareTo("exit") == 0) exit = false;
 
-                    PoSMessage posMessage = new PoSMessage(produto, categoria);
+                    int quantidade = Integer.parseInt(readline("Quantidade do produto?"));
+                    if (quantidade<=0) exit = false;
+
+                    double preco = Double.parseDouble(readline("Preço do produto?"));
+                    if (preco<=0.0) exit = false;
+
+                    SalesMessage posMessage = new SalesMessage(produto, categoria, quantidade, preco);
                     String jsonMessage = new GsonBuilder().create().toJson(posMessage);
 
                     channel.basicPublish(exchangeName, categoria, true, null, jsonMessage.getBytes());
@@ -49,7 +55,7 @@ public class PointOfSales {
             connection.close();
 
         } catch (Exception ex) {
-            System.out.println("Erro ao estabelecer ligação com RabbitMQ.");
+            System.out.println("Erro ao estabelecer ligação com RabbitMQ." + ex.getMessage());
         }
     }
 
