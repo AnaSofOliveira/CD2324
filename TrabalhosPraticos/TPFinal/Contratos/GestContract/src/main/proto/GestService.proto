@@ -3,14 +3,11 @@ syntax = "proto3";
 option java_multiple_files = true;
 option java_package = "geststubs";
 
-package gestservice; // package do proto
+package gestservice;
 
-// serviço com operações sobre números
 service GestService {
      rpc agruparVendas(Categoria) returns (Informacoes);
-
      rpc obterFicheiro(Informacoes) returns (stream Ficheiro);
-
 }
 
 message Categoria{
