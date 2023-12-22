@@ -1,3 +1,0 @@
-
-
-spread -c spread.conf
