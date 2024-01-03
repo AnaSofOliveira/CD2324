@@ -246,14 +246,14 @@ public class UserClient {
 10. Considere uma empresa de nome EXR23 que realiza vendas pela internet que disponibiliza uma aplicação onde os seus clientes podem submeter mensagens sobre reclamações genéricas relacionadas com as compras que realizaram. Na empresa existem dezenas de funcionários que tratam em simultâneo as mensagens dos clientes (cada mensagem por um funcionário diferente). O funcionário analisa a mensagem e de acordo com a sua interpretação reenvia a mesma para ser tratada nos departamentos de Vendas, Faturação e Suporte, onde posteriormente outros funcionários mais especializados tratam e resolvem as reclamações através de contacto
 telefónico com os clientes. Para efeitos de registo e possíveis futuras auditorias, todas as mensagens envidas pelos clientes são guardadas num ficheiro de Logging. Utilizando unicamente o middleware RabbitMQ, apresente:
 
-a) Um diagrama de arquitetura (Aplicações, tipos de Exchange, Queues, respetivos Bindings e Routing Keys necessários) de um sistema para a empresa EXR23;
+a) Um diagrama de arquitetura (Aplicações, tipos de Exchange, Queues, respetivos Bindings e Routing Keys necessários) de um sistema para a empresa EXR23.
 
-    ___Resposta:__ 
-    __Aplicações:__ Teríamos três aplicações principais - a aplicação de clientes, a aplicação de funcionários e a aplicação de departamentos (Vendas, Faturação e Suporte).
-    __Exchanges:__ Teríamos dois tipos de exchanges - um exchange do tipo direct para encaminhar as mensagens dos clientes para os funcionários e um exchange do tipo topic para encaminhar as mensagens dos funcionários para os departamentos apropriados.
-    __Queues:__ Teríamos várias queues - uma queue para cada funcionário, uma queue para cada departamento e uma queue para o logging.
-    __Bindings:__ As queues dos funcionários estariam ligadas (binding) ao exchange direct e as queues dos departamentos e do logging estariam ligadas ao exchange topic.
-    __Routing Keys:__ As mensagens dos clientes seriam enviadas com uma routing key genérica (por exemplo, "cliente.mensagem"). As mensagens dos funcionários seriam enviadas com routing keys específicas para cada departamento (por exemplo, "departamento.vendas", "departamento.faturacao", "departamento.suporte")._
+___Resposta:__ 
+__Aplicações:__ Teríamos três aplicações principais - a aplicação de clientes, a aplicação de funcionários e a aplicação de departamentos (Vendas, Faturação e Suporte).
+__Exchanges:__ Teríamos dois tipos de exchanges - um exchange do tipo direct para encaminhar as mensagens dos clientes para os funcionários e um exchange do tipo topic para encaminhar as mensagens dos funcionários para os departamentos apropriados.
+__Queues:__ Teríamos várias queues - uma queue para cada funcionário, uma queue para cada departamento e uma queue para o logging.
+__Bindings:__ As queues dos funcionários estariam ligadas (binding) ao exchange direct e as queues dos departamentos e do logging estariam ligadas ao exchange topic.
+__Routing Keys:__ As mensagens dos clientes seriam enviadas com uma routing key genérica (por exemplo, "cliente.mensagem"). As mensagens dos funcionários seriam enviadas com routing keys específicas para cada departamento (por exemplo, "departamento.vendas", "departamento.faturacao", "departamento.suporte")._
 
 
 b) Apresente os troços de código Java essenciais da aplicação do funcionário que permite ao mesmo analisar os pedidos dos clientes, reclassificá-los e enviá-los para os departamentos (Vendas, Faturação e Suporte) da empresa.
@@ -317,15 +317,15 @@ public class EmployeeApp {
 
 a) Utilização exclusiva do middleware gRPC;
 
-    ___Resposta:__ 
-    __Cliente -> Servidor de Balanceamento de Carga:__ O cliente inicia a comunicação enviando uma solicitação de RPC para o servidor de balanceamento de carga. Esta solicitação pode incluir detalhes como o serviço que o cliente pretende invocar.
-    __Servidor de Balanceamento de Carga -> Cliente:__ O servidor de balanceamento de carga responde com uma lista de servidores que podem atender à solicitação do cliente. Esta lista pode ser baseada em vários fatores, como a carga atual em cada servidor, a proximidade do servidor ao cliente, etc.
-    __Cliente -> Servidor:__ O cliente seleciona um servidor da lista fornecida pelo servidor de balanceamento de carga e envia a solicitação de RPC para esse servidor.
-    __Servidor -> Cliente:__ O servidor processa a solicitação e envia a resposta de volta ao cliente._
+___Resposta:__ 
+__Cliente -> Servidor de Balanceamento de Carga:__ O cliente inicia a comunicação enviando uma solicitação de RPC para o servidor de balanceamento de carga. Esta solicitação pode incluir detalhes como o serviço que o cliente pretende invocar.
+__Servidor de Balanceamento de Carga -> Cliente:__ O servidor de balanceamento de carga responde com uma lista de servidores que podem atender à solicitação do cliente. Esta lista pode ser baseada em vários fatores, como a carga atual em cada servidor, a proximidade do servidor ao cliente, etc.
+__Cliente -> Servidor:__ O cliente seleciona um servidor da lista fornecida pelo servidor de balanceamento de carga e envia a solicitação de RPC para esse servidor.
+__Servidor -> Cliente:__ O servidor processa a solicitação e envia a resposta de volta ao cliente._ 
 
 b) Utilização conjunta do middleware de comunicação por grupos (Spread Toolkit) e do middleware gRPC.
 
-    ___Resposta:__ __Cliente -> Servidor de Balanceamento de Carga (gRPC):__ O cliente inicia a comunicação enviando uma solicitação de RPC para o servidor de balanceamento de carga. Esta solicitação pode incluir detalhes como o serviço que o cliente pretende invocar.
-    __Servidor de Balanceamento de Carga -> Cliente (gRPC):__ O servidor de balanceamento de carga responde com uma lista de servidores que podem atender à solicitação do cliente. Esta lista pode ser baseada em vários fatores, como a carga atual em cada servidor, a proximidade do servidor ao cliente, etc.
-    __Cliente -> Grupo de Servidores (Spread):__ O cliente usa o Spread para enviar a solicitação para um grupo de servidores. O Spread garante que a mensagem seja entregue a todos os servidores no grupo, mesmo em face de falhas de rede ou de servidores.
-    __Servidores -> Cliente (Spread):__ Cada servidor processa a solicitação e usa o Spread para enviar a resposta de volta ao cliente. O cliente pode então processar as respostas conforme elas chegam._
+___Resposta:__ __Cliente -> Servidor de Balanceamento de Carga (gRPC):__ O cliente inicia a comunicação enviando uma solicitação de RPC para o servidor de balanceamento de carga. Esta solicitação pode incluir detalhes como o serviço que o cliente pretende invocar.
+__Servidor de Balanceamento de Carga -> Cliente (gRPC):__ O servidor de balanceamento de carga responde com uma lista de servidores que podem atender à solicitação do cliente. Esta lista pode ser baseada em vários fatores, como a carga atual em cada servidor, a proximidade do servidor ao cliente, etc.
+__Cliente -> Grupo de Servidores (Spread):__ O cliente usa o Spread para enviar a solicitação para um grupo de servidores. O Spread garante que a mensagem seja entregue a todos os servidores no grupo, mesmo em face de falhas de rede ou de servidores.
+__Servidores -> Cliente (Spread):__ Cada servidor processa a solicitação e usa o Spread para enviar a resposta de volta ao cliente. O cliente pode então processar as respostas conforme elas chegam._
