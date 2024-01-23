@@ -1,0 +1,11 @@
+
+FROM openjdk:11
+
+WORKDIR /markApp
+
+COPY /markApp/MarkApp.jar /markApp/MarkApp.jar
+
+ENTRYPOINT ["java", "-jar", "MarkApp.jar"]
+
+VOLUME /usr/datafiles
+

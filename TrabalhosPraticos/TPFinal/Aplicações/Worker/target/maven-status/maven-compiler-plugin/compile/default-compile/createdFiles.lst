@@ -1,0 +1,8 @@
+workerapp\spread\SMessage.class
+workerapp\rabbit\RMessage.class
+workerapp\Worker.class
+workerapp\spread\MessageValues.class
+workerapp\Worker$1.class
+workerapp\FilesManager.class
+workerapp\WState.class
+workerapp\spread\AdvancedMessageHandler$2.class
